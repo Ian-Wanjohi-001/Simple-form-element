@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form Input Types and Attributes</title>
+  </head>
+  <h3> This  html page showing examples of form input types ,  form attributes  and other respective attributes ie place holder, pattern , multiple ,min and max size ,max length and minlength. </h3>
+  <body style="background-color: cyan;">
+    <form>
+      <label for="text-input">Text Input:</label>
+      <input type="text" id="text-input" name="text-input" placeholder="Enter your name" maxlength="50" minlength="2" required>
+
+      <br> <br>
+
+      <label for="email-input">Email Input:</label>
+      <input type="email" id="email-input" name="email-input" placeholder="example@gmail.com" required>
+
+      <br> <br>
+
+      <label for="password-input">Password Input:</label>
+      <input type="password" id="password-input" name="password-input" minlength="8" required>
+
+      <br> <br>
+
+      <label for="date-input">Date Input:</label>
+      <input type="date" id="date-input" name="date-input" min="2023-05-04" max="2023-06-30" required>
+
+      <br> <br>
+
+      <label for="color-input">Color Input:</label>
+      <input type="color" id="color-input" name="color-input" value="#ff0000">
+
+      <br> <br>
+
+      <label for="range-input">Range Input:</label>
+      <input type="range" id="range-input" name="range-input" min="0" max="100" step="5">
+
+      <br> <br>
+ 
+      <label for="file-input">File Input:</label>
+      <input type="file" id="file-input" name="file-input" accept=".jpg, .jpeg, .png" multiple>
+
+      <br> <br>
+
+      <label for="radio-input-1">Radio Input 1:</label>
+      <input type="radio" id="radio-input-1" name="radio-input" value="option-1" checked>
+      <label for="radio-input-1">Option 1</label>
+
+      <br> <br>
+
+      <label for="radio-input-2">Radio Input 2:</label>
+      <input type="radio" id="radio-input-2" name="radio-input" value="option-2">
+      <label for="radio-input-2">Option 2</label>
+
+      <br> <br>
+
+      <label for="checkbox-input">Checkbox Input:</label>
+      <input type="checkbox" id="checkbox-input" name="checkbox-input" value="option-1">
+      <label for="checkbox-input">Option 1</label>
+
+      <br> <br>
+
+      <label for="select-input">Select Input:</label>
+      <select id="select-input" name="select-input" required>
+        <option value="" disabled selected>Select an option</option>
+        <option value="option-1">Option 1</option>
+        <option value="option-2">Option 2</option>
+        <option value="option-3">Option 3</option>
+      </select>
+
+      <br> <br> <br><br><br> <br>
+ 
+      <label for="textarea-input">Textarea Input:</label>
+      <textarea id="textarea-input" name="textarea-input" rows="2" cols="0" maxlength="500" required></textarea>
+
+      <br> <br>   
+
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
